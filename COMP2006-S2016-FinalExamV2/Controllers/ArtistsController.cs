@@ -7,8 +7,8 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using COMP2006_S2016_FinalExamV2.Models;
-/*      Patrick Ross
-        200307049
+/*      Jesse Baril
+ *      200226521
         August 18 2016
         created page
         This artists controller*/
