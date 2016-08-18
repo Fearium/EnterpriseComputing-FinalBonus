@@ -1,0 +1,32 @@
+﻿@model COMP2006_S2016_FinalExamV2.Models.Artist
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+<!--
+
+/*      Patrick Ross
+        200307049
+        August 18 2016
+        created page
+        This artists details page*-->
+
+<div>
+    <h4>Artist</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>
